@@ -13,4 +13,4 @@ application "rails-demo" do
    group "vagrant"
    repository "http://github.com/mulderp/chef-demo.git"
    passenger_apache2
-END
+end

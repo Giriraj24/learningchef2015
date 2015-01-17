@@ -113,7 +113,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      chef.chef_server_url = "https://api.opscode.com/organizations/learning_chef_target"
      chef.validation_key_path = "./.chef/learning_chef_target-validator.pem"
      chef.validation_client_name = "learning_chef_target-validator"
-     chef.node_name = "giriraj2015_vm"
+     chef.node_name = "giriraj2015_new_vm"
    end
   #
   # If you're using the Opscode platform, your validator client is
